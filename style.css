@@ -1,0 +1,27 @@
+/* Group - Apply to both selectors */
+
+h1, h2 {
+  color: blueviolet;
+}
+
+/* Child = Apply to direct child of left side */
+
+.box > p {
+  color: firebrick;
+}
+
+/* Descendant = Apply to a descendant of left side */
+
+.box li {
+  color: blue;
+}
+
+/* Chaining = Apply where ALL selectors are true */
+
+li.done {
+  color: seagreen;
+}
+
+ul p.done {
+  font-size: 0.5rem;
+}
